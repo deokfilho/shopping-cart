@@ -1,26 +1,25 @@
 import React, {useState, useEffect} from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import ProductGrid from './components/_ProductGrid';
 
 function App() {
     const [data, setData] = useState('null');
    useEffect(() => {
        const fetchJSON = async () => {
-           const response = await fetch('/data/products.json');
+           const response = await fetch('./data/products.json');
            if (!response.ok) throw response;
-            const json = await response.json();
-           setData(json);
-           // setSchedule(json);
+           const json = await response.json();
+           setData(json.products);
        };
        fetchJSON();
    }, []);
-
-
+    // {Object.keys(data).map(k => (
+    //     console.log(k)
+    // ))};
   return (
       <div className="App">
-      <pre>
-      {JSON.stringify(data, null, 2)}
-      </pre>
+      <ProductGrid productList={data} />
       </div>
   );
 }
