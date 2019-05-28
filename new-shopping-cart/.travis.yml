@@ -1,4 +1,9 @@
+language: node_js
+node_js:
+  - "node"
+before_deploy: "npm run build"
 deploy:
   provider: firebase
   token:
     secure: "1/-8Q_3Xjss4R-GeePmsUHe_p2U6-QJCsGVH8yKHT6s7U"
+  message: "Deploying to firebase"
