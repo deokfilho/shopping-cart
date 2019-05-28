@@ -59,3 +59,7 @@ typings/
 
 # next.js build output
 .next
+
+.idea/
+new-shopping-cart/.idea/workspace.xml
+.DS_Store
