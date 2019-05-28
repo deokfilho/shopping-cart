@@ -1,8 +1,9 @@
 language: node_js
 node_js:
   - "node"
+script:
+  -
 deploy:
   provider: firebase
   token:
     secure: "cLdJx/iXsaYR65L1Z/wUnbrjvZ9UOMCJNL0cJyENIQrI0b0gMlElfBsPKCMQqZM3LENF2JMed+9kSYhSzmKIewe9lkkKb9duHDqQeNHbuPAhOE5uVGNnxXLWjV6Ew1gM6Jibsq+qZpMMKTU7k4KCMfz3np2m6UaBW6itrHbLUCI6cGhzQfyOgzan2snyKUjtkH6hpNjcsb+7MgznPtp5sJ/lCwMGECHYS+Tml2pG/knOemCokw+jPQBymbStKWrk4a38wxhPK7BmKToKjrTlkEHEpCdmJrPAL9F6pH0MSGEuEYAEmlR4U6Zd33d2hgg1oGWscID+vuX9jjkTpOHmq88UV9ZDlJeO6TNtgIM3ci0VAo6O/s4YI9C6mM0TfHUS5LbgrSNMHZxXsVLKRsqeSx/Hs8km8Zl9PMSb0bwAo/exNXgG9wTHLjiYRUS83aQpzihrlhGDKLd2SdysOxdr9v0jYwyeV3vizKA6sAsQNwu2TmqDl5EPOBgx6XKllIxtnip0DMY4NrD24zlSFdxyB7IsNsXUhdk9cEoj2NfMxJMgM/7UKLoIFL+ENpBPOSnPC6Wig5/U8NS8f7S58yFSGS/+eRfzYNqGm1PLPzHDBfZCNhRcbJFjn1vA5SMlTbN4Sqqp+cvFiCwtqIj0t4Sxjmzr2nuWEJ5wv1EVh3N/Agk="
-  message: "Deploying to firebase"
