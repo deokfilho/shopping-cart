@@ -5,23 +5,23 @@ import ProductGrid from './components/_ProductGrid';
 
 function App() {
     const [data, setData] = useState('null');
-   useEffect(() => {
-       const fetchJSON = async () => {
-           const response = await fetch('./data/products.json');
-           if (!response.ok) throw response;
-           const json = await response.json();
-           setData(json.products);
-       };
-       fetchJSON();
-   }, []);
+    useEffect(() => {
+        const fetchJSON = async () => {
+            const response = await fetch('./data/products.json');
+            if (!response.ok) throw response;
+            const json = await response.json();
+            setData(json.products);
+        };
+        fetchJSON();
+    }, []);
     // {Object.keys(data).map(k => (
     //     console.log(k)
     // ))};
-  return (
-      <div className="App">
-      <ProductGrid productList={data} />
-      </div>
-  );
+    return (
+        <div className="App">
+        <ProductGrid productList={data} />
+    </div>
+);
 }
 
 export default App;
