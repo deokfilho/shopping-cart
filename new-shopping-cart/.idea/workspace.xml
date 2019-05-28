@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="fe1f8816-68c3-4aa9-a4bb-ab08f2830744" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase.json" beforeDir="false" afterPath="$PROJECT_DIR$/firebase.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,10 +18,14 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/firebase.json">
+        <entry file="file://$PROJECT_DIR$/src/components/_ProductGrid.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            <state relative-caret-position="1766">
+              <caret line="125" selection-start-line="125" selection-end-line="125" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#475#521#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -27,17 +33,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="168">
+              <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="378">
+              <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+              <folding>
+                <element signature="e#84#103#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -84,23 +93,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
               <item name="new-shopping-cart" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/Documents/Northwestern/Academics/2019/Spring/eecs394/shopping-travis/new-shopping-cart" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="~/Documents/Northwestern/Academics/2019/Spring/eecs394/shopping-cart/new-shopping-cart" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
             <path>
               <item name="new-shopping-cart" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/Documents/Northwestern/Academics/2019/Spring/eecs394/shopping-travis/new-shopping-cart" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name=".firebase" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="~/Documents/Northwestern/Academics/2019/Spring/eecs394/shopping-cart/new-shopping-cart" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -154,13 +163,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24922000" />
+    <option name="totallyTimeSpent" value="25260000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="923" height="1280" extended-state="6" />
+    <frame x="0" y="0" width="1056" height="1280" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27605322" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.4879227" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -206,8 +215,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="16" selection-end-column="36" />
+        <state relative-caret-position="378">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
           <folding>
             <element signature="e#84#103#0" expanded="true" />
           </folding>
@@ -251,8 +260,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/_ProductGrid.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="115" column="30" selection-start-line="115" selection-start-column="30" selection-end-line="115" selection-end-column="30" />
+        <state relative-caret-position="1766">
+          <caret line="125" selection-start-line="125" selection-end-line="125" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
             <element signature="e#475#521#0" expanded="true" />
@@ -276,8 +285,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="168">
+          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
         </state>
       </provider>
     </entry>
